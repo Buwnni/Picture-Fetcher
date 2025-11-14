@@ -1,0 +1,25 @@
+<div class="app">
+  <div class="card main-card">
+    <div class="display">
+      <h1>Discord Image Extractor</h1>
+      <p class="subtitle">Paste a message link to grab all image URLs.</p>
+      <input
+        id="messageUrl"
+        type="text"
+        placeholder="https://discord.com/channels/..."
+      />
+      <button id="fetchBtn">Fetch Images</button>
+      <p id="status" class="status"></p>
+    </div>
+  </div>
+
+  <div class="card side-card">
+    <h2>Images</h2>
+    <div id="attachmentsList" class="attachments-list">
+      <p class="placeholder">No images yet. Paste a link and hit Fetch.</p>
+    </div>
+    <button id="copyAllBtn" class="copy-all" disabled>Copy All URLs</button>
+  </div>
+
+  <div id="toast" class="toast">Copied!</div>
+</div>
