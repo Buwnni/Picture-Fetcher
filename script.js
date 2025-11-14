@@ -1,5 +1,5 @@
 // ===== CONFIG =====
-const API_URL = "https://YOUR_VERCEL_URL_HERE/api/discord-images";
+const API_URL = "https://picture-fetcher.vercel.app/";
 
 // ===== ELEMENTS =====
 const messageInput = document.getElementById("messageUrl");
